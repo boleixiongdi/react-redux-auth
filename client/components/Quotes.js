@@ -11,9 +11,6 @@ export default class Quotes extends Component {
           <button onClick={onQuoteClick} className="btn btn-primary">
             Get Quotes
           </button>
-          <button onClick={onSecretQuoteClick} className="btn btn-warning">
-            Get Secret Quote
-          </button>
         </div>
         
         { isAuthenticated &&
